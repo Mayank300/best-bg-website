@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo 2", cursive;
+}
+
+body {
+  font-family: "Baloo 2", cursive;
+  padding: 0;
+  margin: 0;
+}
+
+[data-tab-content] {
+  display: none;
+}
+.active[data-tab-content] {
+  display: block;
+}
+.tabs {
+  display: flex;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  margin: 40px;
+  padding: 250px;
+  border-bottom: 2px solid #000000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+.tab {
+  display: flex;
+  margin: 0;
+  margin-top: 0px;
+  padding: 90px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 60px;
+  margin-right: 50px;
+}
+.tab .active {
+  border: 5px solid #000000;
+}
+.tab:hover {
+  cursor: pointer;
+  display: flex;
+  text-transform: uppercase;
+  transition: all 500ms;
+  font-size: 70px;
+  font-family: "Baloo 2", cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+.tab-content h1 {
+  text-align: center;
+  display: flex;
+  font-size: 60px;
+  border-bottom: 2px solid #000000;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 850px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+.tab-content p {
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+  color: #f7caca;
+  width: 90%;
+  padding: 50px;
+  margin-left: 50px;
+}
+.icon1 {
+  width: 0px;
+  height: 0px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 960px;
+  margin-bottom: 80px;
+  margin-top: 400px;
+  font-size: 202px;
+}
+.icon2 {
+  width: 0px;
+  height: 0px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 960px;
+  margin-bottom: 80px;
+  font-size: 202px;
+}
+.icon3 {
+  width: 0px;
+  height: 0px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 960px;
+  margin-bottom: 80px;
+  font-size: 202px;
+}
+.text {
+  display: flex;
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 50px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.text h3 {
+  font-weight: 500;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+.text p {
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.top-head-text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 60px;
+  font-family: "Baloo 2", cursive;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 50px;
+  margin: 50px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.top-text1 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.top-text2 {
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.top-text3 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.top-text4 {
+  margin-left: 50px;
+  margin-right: 80px;
+}
+.top-text5 {
+  margin-bottom: 200px;
+}
+
+.top-text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 60px;
+  font-family: "Baloo 2", cursive;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 50px;
+  margin: 50px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+a:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 80px;
+  transition: all 500ms;
+  font-size-adjust: 20px;
+  color: #fff;
+  background-color: transparent;
+}
+a:active {
+  color: #fff;
+  background-color: transparent;
+}
+
+.banner-text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  text-decoration: none;
+}
+.banner-text ul {
+  height: 50px;
+  float: right;
+}
+.banner-text ul a {
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+}
+.banner-text ul a:hover {
+  cursor: pointer;
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  transition: all 500ms;
+  font-size: 50px;
+  font-family: "Baloo 2", cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.banner-text h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: 16%;
+  display: block;
+  font-size: 100px;
+  font-family: "Helvetica Neue";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+.animation-area {
+  background: linear-gradient(to left, #8942a8, #ba382f);
+  width: 100%;
+  height: 500vh;
+}
+.box-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box-area li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 20s linear infinite;
+  bottom: -150px;
+  text-align: center;
+  justify-content: center;
+}
+.box-area li:nth-child(1) {
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+  left: 70%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+  left: 42%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+  left: 15%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3.5s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
+}
